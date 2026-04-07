@@ -33,10 +33,6 @@ swap={{SWAP}}GB
 # Storage and Memory Settings (under [wsl2]) - 存储和内存设置
 # ═══════════════════════════════════════════════════════════════
 
-# Page reporting: enabled - 页面报告：启用
-# Improve memory allocation efficiency, reduce virtualization overhead - 提高内存分配效率，减少虚拟化开销
-pageReporting=true
-
 # VM idle timeout: 60 seconds - VM空闲超时：60秒
 # Start releasing memory after 1 minute of WSL idle - WSL空闲1分钟后开始逐步释放内存
 vmIdleTimeout=60000
